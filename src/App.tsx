@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './page/Home';
+import Movies from './page/Movies';
+import NotFound from './page/NotFound';
+import Footer from './component/Footer';
+import MovieDetail from './page/MovieDetail';
 
-function App() {
+type Props = {};
+
+const App: React.FC<Props> = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        {/* <div className='font-montserrat flex flex-col overflow-x-hidden overflow-y-auto bg-movie-3 h-screen'> */}
+        <div className='font-montserrat flex flex-col overflow-x-hidden overflow-y-auto h-screen'>
+
+
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/movies' element={<Movies />} />
+            <Route path='/movies/:slug' element={<MovieDetail />} />
+            <Route path='*' element={<NotFound />} />
+          </Routes>
+
+          <Footer />
+
+        </div>
+      </BrowserRouter>
+
+    </>
   );
 }
 
