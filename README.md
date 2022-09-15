@@ -1,4 +1,4 @@
-# [Live Demo App](https://perqara-ichsankurnia.vercel.app)
+## [Live Demo App](https://perqara-ichsankurnia.vercel.app)
 
 
 # Getting Started with Create React App
@@ -11,7 +11,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-The first thing you need to `install` all dependencies/libraries to run this project.
+The first thing you need to `install` all dependencies/libraries to run this project.\
 By going to the root of the project and typing `npm install` in the terminal.
 
 ### `npm start`
