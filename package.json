@@ -1,7 +1,16 @@
 {
   "name": "moovie-time",
   "version": "0.1.0",
+  "description": "Moovie time application for Software Engineer (Frontend) Assessment in Perqara",
   "private": true,
+  "author": "ichsankurnia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichsankurnia/moovie-time.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ichsankurnia/moovie-time/issues"
+  },
   "dependencies": {
     "@headlessui/react": "^1.7.1",
     "@testing-library/jest-dom": "^5.16.5",

@@ -1,3 +1,6 @@
+# [Live Demo App](https://perqara-ichsankurnia.vercel.app)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,10 +9,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+The first thing you need to `install` all dependencies/libraries to run this project.
+By going to the root of the project and typing `npm install` in the terminal.
+
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:1309](http://localhost:1309) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
