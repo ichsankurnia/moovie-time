@@ -119,7 +119,7 @@ const Movies: React.FC<Props> = () => {
                             )}
 
                             
-                            <div className='flex absolute -bottom-20 left-[27%] md:left-[42%]'>
+                            <div className='flex absolute -bottom-20 left-[27%] md:left-[43%]'>
                                 <button className='bg-rose-500 font-medium px-10 py-2 rounded-full hover-opacity'>Load More</button>
                             </div>
                         </div>
